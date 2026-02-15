@@ -25,9 +25,6 @@ build/
 dist/
 *.egg-info/
 
-# Generated plots
-*.png
-
 # Dataset (optional - if you don’t want to upload it)
 salary_dataset.csv
 

@@ -1,4 +1,4 @@
-# 💼 IT Salary Predictor (Machine Learning from Scratch)
+#  IT Salary Predictor (Machine Learning from Scratch)
 
 A Machine Learning project that predicts IT engineer salaries using **Linear Regression implemented from scratch** with **Batch Gradient Descent**.
 
@@ -6,7 +6,7 @@ This project does not use scikit-learn — the full learning algorithm (cost fun
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The model predicts salary based on the following features:
 
@@ -25,25 +25,26 @@ The goal of this project is to deeply understand:
 
 ---
 
-## 📂 Results
+##  Results
 
 ### Cost vs Iterations
 
 <p align="center">
-  <img src="it-salary-predictor/screenshot/Figure_1.png" width="600">
+  <img src="/home/aminelby/it-salary-predictor/screenshot/Figure_1.png" width="600">
 </p>
 
 ### Training Output
 
 <p align="center">
-  <img src="it-salary-predictor/screenshot/swappy-20260215_014026.png" width="600">
+  <img src="/home/aminelby/it-salary-predictor/screenshot/swappy-20260215_014026.png" width="600">
 </p>
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
+
 it-salary-predictor/
 │
 ├── train.py               # Training script
@@ -52,11 +53,12 @@ it-salary-predictor/
 ├── requirements.txt
 ├── .gitignore
 └── cost_plot.png          # Generated training cost plot
-```bash
+
+```
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### 1️⃣ Model Implementation (`model.py`)
 
@@ -75,7 +77,7 @@ it-salary-predictor/
 
 ---
 
-## 📊 Cost Function
+##  Cost Function
 
 The model minimizes the Mean Squared Error:
 
@@ -83,33 +85,39 @@ J(w,b) = (1 / 2m) * Σ (f(x) - y)^2
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1️⃣ Create virtual environment
 
 ```bash
+
 python -m venv venv
 source venv/bin/activate  # Linux / Mac
 venv\Scripts\activate     # Windows
-```bash
+
+```
 
 ### 2 Install Dependencies
 
-```bash
+```
+
 pip install -r requirements.txt
+
 ```
 
 ### 3 Run Training
 
 ```bash
+
 python train.py
+
 ```
 
 After training, the script will output predictions, final optimized weights and bias, and save the cost convergence plot as `cost_plot.png`.
 
 ---
 
-## 📂 Technologies Used
+##  Technologies Used
 
 - Python  
 - NumPy  
@@ -118,7 +126,7 @@ After training, the script will output predictions, final optimized weights and 
 
 --- 
 
-## 📂 Project Purpose
+##  Project Purpose
 
 This project demonstrates:
 
@@ -129,7 +137,7 @@ This project demonstrates:
 
 ---
 
-## 📂 Author
+##  Author
 
 Amine El-baydaouy  
 Machine Learning Enthusiast

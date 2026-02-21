@@ -30,13 +30,13 @@ The goal of this project is to deeply understand:
 ### Cost vs Iterations
 
 <p align="center">
-  <img src="/home/aminelby/it-salary-predictor/screenshot/Figure_1.png" width="600">
+  <img src="./screenshot/Figure_1.png" width="600">
 </p>
 
 ### Training Output
 
 <p align="center">
-  <img src="/home/aminelby/it-salary-predictor/screenshot/swappy-20260215_014026.png" width="600">
+  <img src="./screenshot/swappy-20260215_014026.png" width="600">
 </p>
 
 ---
